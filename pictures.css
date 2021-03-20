@@ -1,0 +1,616 @@
+*{
+	font-weight: 600;
+	color: black;
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	font-family: noto sans sc;
+}
+
+
+.navbar{
+	width: 100%;
+	height: 99px;
+	position: fixed;
+	background-color: lightgreen;
+}
+
+.navbar:hover{
+  background-color: white;
+}
+
+.navbar .max-width{
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   width: 1300px;
+}
+
+.navbar .a1{
+  color: blue;
+  font-size: 45px;
+  font-family: ravie;
+  text-decoration: none;
+  margin-left: 12px;
+  display: flex;
+  text-shadow: 4px 5px 5px orange;
+}
+
+.navbar .a1 img{
+   width: 100px;
+   height: 75px;
+}
+
+.menu{
+	text-align: center;
+}
+
+ .menu li {
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin: 50px 15px 12px 10px;
+ }
+ 
+
+ .menu li a{
+ 	text-decoration: none;
+ 	color: blue;
+ }	
+
+ .menu li a:hover{
+ 	transition: color 2s;
+ 	color: orange ;
+ 	text-shadow: 4px 5px 5px orange;
+ }
+
+ .mn::after{
+    content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+}
+
+.sous li{
+    border: 2px solid blue;
+    float: none;
+    text-align: center;
+    width: 45%;
+    height: 20%;
+    background-color: black;
+}
+
+.sous li a{
+	font-size: 20px;
+}
+.navbar .menu li:hover .sous{ 
+        display: block;
+}
+
+.p1{
+   color: black;
+   text-align: center;
+   margin-top: 30px;
+   font-size: 33px;
+}
+
+ .tof1{
+ padding-top: 150px;
+ }
+
+ .tof1 .titr{
+ 	margin-top: 23px;
+ 	margin-bottom: 23px;
+ }
+
+ .tof1 .titr p{
+ 	text-align: center;
+ 	font-size: 44px;
+ 	text-decoration: underline;
+ 	color: blue;
+ 	text-shadow: 4px 1px 1px black;
+ }
+
+ .tof1 .max-width{
+ 	align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+ }
+
+ .one{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+ }
+
+ .one img{
+ 	width: 250px;
+ 	height: 200px;
+ 	margin: 20px 12px 0px 50px;
+ }
+
+ .two{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+ }
+
+ .two img{
+ 	width: 250px;
+ 	height: 200px;
+ 	margin: 20px 12px 0px 50px;
+ }
+
+ .three{
+   width: 55%;
+   height: 55%;
+   margin-right: 12px;
+ }
+
+.three img{
+	width: 250px;
+ 	height: 200px;
+ 	margin: 20px 50px 10px 50px;
+}
+
+ .four{
+   width: 55%;
+   height: 55%;
+ }
+
+.four img{
+    width: 250px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+ }
+
+ .tof2 .max-width{
+ 	align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+ }
+
+ .pic1{
+ 	width: 55%;
+ 	height: 75%;
+ 	margin-right: 12px;
+ }
+
+ .pic1 img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 52px 10px 160px;
+ }
+
+.pic2{
+ 	width: 55%;
+ 	height: 75%;
+ }
+
+ .pic2 img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 52px 10px 150px;
+ }
+
+.tof3{
+	margin-top: 2px;
+}
+
+.tof3 .max-width{
+ 	align-content: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 500px;
+    display: flex;
+}
+
+.pho{
+ 	width: 65%;
+ 	height: 55%;
+ 	margin-left: 300px;
+ 	margin-right: 17px;
+}
+
+.pho img{
+	width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof4 .max-width{
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.tof4 .title{
+	margin-bottom: 23px;
+}
+
+.tof4 .title p{
+   font-size: 44px;
+   text-align: center;
+   color: blue;
+   text-shadow: 4px 1px 1px black;
+}
+
+.left{
+	width: 55%;
+	height: 75%;
+}
+
+.left img{
+	 width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.center{
+	width: 55%;
+	height: 75%;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+.center img{
+	width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.center .child1 img{
+	width: 200px;
+ 	height: 150px;
+ 	margin: 15px 12px 7px 100px;
+}
+
+.right{
+	width: 55%;
+	height: 75%;
+}
+
+.right img{
+	 width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof5 .max-width{
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.top{
+	width: 55%;
+	height: 55%;
+	margin-right: 12px;
+}
+
+.top img{
+	 width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.bott{
+	width: 55%;
+	height: 55%;
+	margin-right: 12px;
+}
+
+.bott img{
+	 width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.rit{
+	width: 55%;
+	height: 55%;
+	margin-right: 12px
+}
+
+.rit img{
+	width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+ }
+
+.lif{
+	width: 55%;
+	height: 55%;
+}
+
+.lif img{
+	 width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof6 .max-width{
+	 align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.first{
+	width: 25%;
+	height: 55%;
+	margin-left: 305px;
+}
+
+.first img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof7 .max-width{
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.tof7 .titl{
+	margin-bottom: 23px;
+}
+
+.tof7 .titl p{
+	text-align: center;
+	font-size: 44px;
+	color: blue;
+ 	text-shadow: 4px 1px 1px black;
+}
+
+.sec {
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.sec img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.thi{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.thi img{
+  width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.fo{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.fo img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+ 	border: 2px solid orange;
+}
+
+.fif{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.fif img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof8 .max-width{
+   align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.six{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.six img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.sev{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.sev img{
+     width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.eigh{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.eigh img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof9 .max-width{
+	 align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.tit{
+    margin-bottom: 23px;
+}
+
+.tit p{
+	font-size: 34px;
+	text-align: center;
+	color: blue;
+ 	text-shadow: 4px 1px 1px black;
+}
+
+.nine{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.nine img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.ten{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.ten img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.elev{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.elev img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.tof10 .max-width{
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.end{
+	 margin-bottom: 23px;
+}
+
+.end p{
+    font-size: 34px;
+	text-align: center;
+	color: blue;
+ 	text-shadow: 4px 1px 1px black;
+}
+
+.twe{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px;
+}
+
+.twe img{
+   width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.thirt{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px; 
+}
+
+.thirt img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+.fort{
+  width: 55%;
+  height: 55%;
+  margin-right: 12px; 
+}
+
+.fort img{
+    width: 200px;
+ 	height: 200px;
+ 	margin: 20px 12px 10px 50px;
+}
+
+#theend{
+	margin: 200px 23px 56px 23px;
+	display: flex;
+}  
+
+
+ #theend #max-width{
+	display: inline-block;
+	width: 100%;
+	height: 55px;
+	justify-content: space-between;
+	background-color: lightgreen;
+	border: 2px solid black;
+	border-radius: 23px;
+}
+
+#theend #max-width p{ 
+      color: brown;
+      padding: 12px 12px 12px 12px;
+      font-style: italic;
+      font-size: 24px;
+	}
+
+	#theend #max-width p marquee{
+       color: black;
+       font-size: 24px;
+	} 
+
+#theend #max-width p span{
+    color: blue;
+    font-size: 24px;
+}

@@ -1,0 +1,268 @@
+*{
+	font-weight: 600;
+	color: black;
+	padding: 0;
+	margin: 0;
+	 font-size: 25px;
+   font-family: noto sans sc;
+}
+
+
+.navbar{
+	width: 100%;
+  height: 99px;
+	position: fixed;
+	background-color: lightgreen;
+}
+
+.navbar:hover{
+  background-color: white;
+}
+
+.navbar .max-width{
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   width: 1300px;
+}
+.navbar .a1{
+  color: blue;
+  font-size: 45px;
+  font-family: ravie;
+  text-decoration: none;
+  display: flex;
+  margin-left: 12px;
+  text-shadow: 4px 5px 5px orange;
+}
+ 
+.navbar .a1 img{
+   width: 100px;
+   height: 75px;
+}
+
+
+.menu{
+	text-align: center;
+}
+
+ .menu li {
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin: 50px 15px 12px 10px;
+ }
+ 
+
+ .menu li a{
+ 	text-decoration: none;
+  color: blue;
+ }	
+
+ .menu li a:hover{
+ 	transition: color 2s;
+  color: orange;
+  text-shadow: 4px 5px 5px orange;
+ }
+
+ .mn::after{
+    content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sous{
+    display: none;
+    position: absolute;
+}
+
+.sous li{
+    border: 2px solid blue;
+    float: none;
+    text-align: center;
+    width: 45%;
+    height: 20%;
+    background-color: black;
+}
+
+.sous li a{
+  font-size: 20px;
+}
+.navbar .menu li:hover .sous{ 
+        display: block;
+}
+
+.section1{
+   width: 100%;
+   padding-top: 100px;
+}
+
+.section1 .max-width{
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+ }
+
+ .section1 .text{
+    background-color: orange;
+    width: 55%;
+    height: 400px;
+    margin-top: 70px;
+    padding-left: 100px;
+    margin-left: 250px;
+    padding-top: 20px;
+ }
+
+ .section1 .text p{
+      color: white;
+      font-size: 20px;
+      padding-left: 10px;
+   }
+
+   .section1 .text p span{
+      color: darkblue;
+      font-size: 25px;
+   }
+
+   .multi{
+      padding: 12px 12px 12px 12px;
+   }
+
+   .multi a{
+    text-decoration: none;
+    color: blue;
+    font-size: 34px;
+   }
+
+   .multi p{
+    font-size: 15px;
+   }
+
+   .bureau{
+    padding: 12px 12px 12px 12px;
+   }
+
+  .bureau a{
+    text-decoration: none;
+    color: blue;
+    font-size: 34px;
+  }
+
+  .bureau p{
+   font-size: 15px;
+  }
+
+  .game{
+     padding: 12px 12px 12px 12px;
+  }
+
+  .game a{
+    text-decoration: none;
+    color: blue;
+    font-size: 34px;
+  }
+
+  .game p{
+    font-size: 15px;
+  }
+
+   .section2{
+     margin-top: 53px;
+   }
+
+   .section2 .max-width{
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+   .vid1{
+      margin-left: 100px;
+   }
+
+   .vid1 video{
+        width: 400px;
+        border-radius: 15px;
+        border: 4px outset white;
+   }
+
+   .vid2{
+      margin-left: 100px;
+   }
+
+   .vid2 video{
+        width: 400px;
+        border-radius: 15px;
+        border: 4px outset white;
+   }
+
+   .vid3{
+      margin-left: 100px;
+   }
+
+   .vid3 video{
+        width: 400px;
+        border-radius: 15px;
+        border: 4px outset white;
+   }
+
+   .vid4{
+      margin-left: 100px;
+   }
+
+   .vid4 video{
+        width: 400px;
+        border-radius: 15px;
+        border: 4px outset white;
+   }
+
+   .vid5{
+      margin-left: 100px;
+   }
+
+   .vid5 video{
+        width: 400px;
+        border-radius: 15px;
+        border: 4px outset white;
+   }
+
+   .vid6{
+      margin-left: 100px;
+   }
+
+   .vid6 video{
+        width: 400px;
+        border-radius: 15px;
+        border: 4px outset white;
+   }
+
+   #theend{
+  margin: 200px 23px 56px 23px;
+  display: flex;
+}  
+
+
+ #theend #max-width{
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  justify-content: space-between;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 23px;
+}
+
+#theend #max-width p{ 
+      color: brown;
+      padding: 12px 12px 12px 12px;
+      font-style: italic;
+      font-size: 24px;
+  }
+
+  #theend #max-width p marquee{
+       color: black;
+       font-size: 24px;
+  } 
+
+#theend #max-width p span{
+    color: blue;
+    font-size: 24px;
+}
